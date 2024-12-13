@@ -12,9 +12,16 @@ const Hero = () => {
                 <div>
                     <h1 className={`${styles.heroHeadText} text-white`}>Hi, I am <span className='text-[#D97000]'>Fábio</span></h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>I'm a cybersecurity student</p>
+                    <img
+                         src="src/assets/WIP.JPEG" 
+                         alt="WIP"
+                         className="mt-4 w-full max-w-md object-contain" 
+                    />
+                    <p className={`${styles.heroSubText} mt-2 text-white-100`}>Work in Progress</p>
                 </div>
             </div>
             {/* <ComputerCanvas /> */}
+
         </section>
     )
 }
