@@ -2,6 +2,9 @@ import logo from "./logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import backend from "./backend.png";
+import cyber from "./cyber.png";
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
@@ -19,6 +22,8 @@ import nodejs from "./tech/nodejs.png";
 // import tripguide from "./tripguide.png";
 
 export {
+  cyber,
+  backend,
   css,
   docker,
   git,

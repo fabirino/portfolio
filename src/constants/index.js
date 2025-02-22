@@ -1,14 +1,16 @@
 import {
-    javascript,
+    backend,
+    cyber,
+    // javascript,
     // cpp,
     // python,
     // java,
     // postgresql,
-    html,
-    css,
-    nodejs,
-    git,
-    docker,
+    // html,
+    // css,
+    // nodejs,
+    // git,
+    // docker,
     // AlticeLabs,
   } from "../assets";
   
@@ -28,48 +30,40 @@ import {
   ];
   
   const services = [
-    // {
-    //   title: "Web Developer",
-    //   icon: web,
-    // },
-    // {
-    //   title: "React Native Developer",
-    //   icon: mobile,
-    // },
-    // {
-    //   title: "Backend Developer",
-    //   icon: backend,
-    // },
-    // {
-    //   title: "Content Creator",
-    //   icon: creator,
-    // },
+    {
+      title: "Backend Developer",
+      icon: backend,
+    },
+    {
+      title: "Cybersecurity Analyst",
+      icon: cyber,
+    },
   ];
   
   const technologies = [
     {
       name: "HTML 5",
-      icon: html,
+      // icon: html,
     },
     {
       name: "CSS 3",
-      icon: css,
+      // icon: css,
     },
     {
       name: "JavaScript",
-      icon: javascript,
+      // icon: javascript,
     },
     {
       name: "Node JS",
-      icon: nodejs,
+      // icon: nodejs,
     },
     {
       name: "git",
-      icon: git,
+      // icon: git,
     },
     {
       name: "docker",
-      icon: docker,
+      // icon: docker,
     },
   ];
   
