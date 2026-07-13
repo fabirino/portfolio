@@ -44,7 +44,7 @@ const About = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className='mt-4 text-secondaty text-[17px] mas-w-3xl leading-[30px]' 
         >
-            TODO: Paste some text about myself.
+            This website was created to test how Cloudflare Tunnels work. In some future update, it might have some relevant information :).
         </motion.p>
 
         <div className='mt-20 flex flex-wrap gap-10'>
