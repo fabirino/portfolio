@@ -2,9 +2,9 @@ name: CI + Security
 
 on:
   push:
-    branches: [master, dev]
+    branches: [prod, dev]
   pull_request:
-    branches: [master]
+    branches: [prod]
   schedule:
     - cron: "0 7 * * 1" # Monday 7am UTC
   workflow_dispatch:
