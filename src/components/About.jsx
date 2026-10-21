@@ -37,7 +37,11 @@ const About = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className='mt-4 text-secondaty text-[17px] mas-w-3xl leading-[30px]' 
         >
-            This website was created to test how Cloudflare Tunnels work. In some future update, it might have some relevant information :).
+            I'm a cybersecurity professional with a background in security monitoring, threat detection, and infrastructure security. Throughout my experience, I've worked with technologies such as Wazuh, CrowdStrike, and Qualys, gaining hands-on experience with SIEM, EDR, vulnerability management, and custom detection rules across cloud and on-premises environments.
+            <br />
+            <br />
+            Outside of cybersecurity, I enjoy exploring technology through personal projects, building and maintaining my own self-hosted environment, and finding new ways to automate everyday tasks. I'm also a fan of video games and enjoy learning how things work under the hood, whether that's troubleshooting a home server or experimenting with a new piece of software. For me, curiosity doesn't stop when the workday ends.
+            
         </motion.p>
 
         <div className='mt-20 flex flex-wrap gap-10'>
