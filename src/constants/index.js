@@ -1,6 +1,7 @@
 import {
-    backend,
-    cyber,
+    code,
+    security,
+    alticelabs,
     // javascript,
     // cpp,
     // python,
@@ -32,11 +33,11 @@ import {
   const services = [
     {
       title: "Backend Developer",
-      icon: backend,
+      icon: code,
     },
     {
       title: "Cybersecurity Analyst",
-      icon: cyber,
+      icon: security,
     },
   ];
   
@@ -69,55 +70,27 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      // icon: starbucks,
+      title: "Academic Internship",
+      company_name: "AlticeLabs",
+      icon: alticelabs,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Oct 2024 - Jul 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Deployed a SIEM platform to centralise logs and accelerate incident detection.",
+        "Integrated various AWS, GCP and on‑prem services, adding coverage for systems that were previously not monitored.",
+        "Developed custom correlation and detection rules to support security operations and compliance requirements.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      // icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      // icon: shopify,
+      title: "Professional Internship",
+      company_name: "AlticeLabs",
+      icon: alticelabs,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Sept 2025 - Aug 2026",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      // icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Automated CrowdStrike Falcon and Qualys deployments with Ansible, covering ~85% of datacenter VMs and improving asset and vulnerability visibility",
+        "Built a GitHub Copilot analytics platform with GitHub APIs, Elasticsearch, Grafana and Kibana, delivering actionable insights to engineering leadership.",
+        "Automated asset discovery and inventory aligned with ISO 27001, reducing blind spots and strengthening datacenter security.",
       ],
     },
   ];

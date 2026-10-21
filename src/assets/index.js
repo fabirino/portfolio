@@ -2,8 +2,8 @@ import logo from "./logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import backend from "./backend.png";
-import cyber from "./cyber.png";
+import code from "./code.png";
+import security from "./security.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -12,7 +12,7 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 
-// import meta from "./company/meta.png";
+import alticelabs from "./company/alticelabs.png";
 // import shopify from "./company/shopify.png";
 // import starbucks from "./company/starbucks.png";
 // import tesla from "./company/tesla.png";
@@ -22,8 +22,8 @@ import nodejs from "./tech/nodejs.png";
 // import tripguide from "./tripguide.png";
 
 export {
-  cyber,
-  backend,
+  code,
+  security,
   css,
   docker,
   git,
@@ -33,4 +33,5 @@ export {
   logo,
   close,
   menu,
+  alticelabs,
 };
