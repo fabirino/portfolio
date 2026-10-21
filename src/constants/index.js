@@ -73,7 +73,7 @@ import {
       title: "Academic Internship",
       company_name: "AlticeLabs",
       icon: alticelabs,
-      iconBg: "#383E56",
+      iconBg: "#1A1A1A",
       date: "Oct 2024 - Jul 2025",
       points: [
         "Deployed a SIEM platform to centralise logs and accelerate incident detection.",
@@ -85,7 +85,7 @@ import {
       title: "Professional Internship",
       company_name: "AlticeLabs",
       icon: alticelabs,
-      iconBg: "#383E56",
+      iconBg: "#1A1A1A",
       date: "Sept 2025 - Aug 2026",
       points: [
         "Automated CrowdStrike Falcon and Qualys deployments with Ansible, covering ~85% of datacenter VMs and improving asset and vulnerability visibility",
