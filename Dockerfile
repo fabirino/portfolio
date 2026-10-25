@@ -9,7 +9,7 @@ RUN npm run build
 # --- runtime ---
 FROM nginxinc/nginx-unprivileged:alpine
 USER root
-RUN apk update && apk upgrade --no-cache libexpat
+RUN apk update && apk upgrade --no-cache
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/dist /usr/share/nginx/html
 USER nginx
