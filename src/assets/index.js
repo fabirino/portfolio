@@ -5,33 +5,45 @@ import close from "./close.svg";
 import code from "./code.png";
 import security from "./security.png";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import python from "./tech/python.png";
+import bash from "./tech/bash.png";
+import c from "./tech/c.png";
+import cpp from "./tech/cpp.png";
+import java from "./tech/java.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import nodejs from "./tech/nodejs.png";
+import docker from "./tech/docker.png";
+import ansible from "./tech/ansible.png";
+import elasticsearch from "./tech/elasticsearch.png";
+import wazuh from "./tech/wazuh.png";
+import crowdstrike from "./tech/crowdstrike.png";
+import qualys from "./tech/qualys.png";
 
 import alticelabs from "./company/alticelabs.png";
-// import shopify from "./company/shopify.png";
-// import starbucks from "./company/starbucks.png";
-// import tesla from "./company/tesla.png";
 
 // import carrent from "./carrent.png";
 // import jobit from "./jobit.png";
 // import tripguide from "./tripguide.png";
 
 export {
-  code,
-  security,
-  css,
-  docker,
-  git,
-  html,
-  javascript,
-  nodejs,
-  logo,
-  close,
-  menu,
-  alticelabs,
+    logo,
+    menu,
+    close,
+
+    code,
+    security,
+    
+    python,
+    bash,
+    c,
+    cpp,
+    java,
+    git,
+    docker,
+    ansible,
+    elasticsearch,
+    wazuh,
+    crowdstrike,
+    qualys,
+
+    alticelabs,
 };

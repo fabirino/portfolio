@@ -1,18 +1,21 @@
 import {
     code,
     security,
+    
+    python,
+    bash,
+    c,
+    cpp,
+    java,
+    git,
+    docker,
+    ansible,
+    elasticsearch,
+    wazuh,
+    crowdstrike,
+    qualys,
+
     alticelabs,
-    // javascript,
-    // cpp,
-    // python,
-    // java,
-    // postgresql,
-    // html,
-    // css,
-    // nodejs,
-    // git,
-    // docker,
-    // AlticeLabs,
   } from "../assets";
   
   export const navLinks = [
@@ -43,28 +46,52 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      // icon: html,
+      name: "python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      // icon: css,
+      name: "bash",
+      icon: bash,
     },
     {
-      name: "JavaScript",
-      // icon: javascript,
+      name: "c",
+      icon: c,
     },
     {
-      name: "Node JS",
-      // icon: nodejs,
+      name: "cpp",
+      icon: cpp,
+    },
+    {
+      name: "java",
+      icon: java,
     },
     {
       name: "git",
-      // icon: git,
+      icon: git,
     },
     {
       name: "docker",
-      // icon: docker,
+      icon: docker,
+    },
+    {
+      name: "ansible",
+      icon: ansible,
+    },
+    {
+      name: "elasticsearch",
+      icon: elasticsearch,
+    },
+    {
+      name: "wazuh",
+      icon: wazuh,
+    },
+    {
+      name: "crowdstrike",
+      icon: crowdstrike,
+    },
+    {
+      name: "qualys",
+      icon: qualys,
     },
   ];
   
